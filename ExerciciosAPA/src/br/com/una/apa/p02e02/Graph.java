@@ -1,4 +1,4 @@
-package br.com.una.apa.p02e01;
+package br.com.una.apa.p02e02;
 
 /* ===========================================================
  * JFreeChart : a free chart library for the Java(tm) platform
