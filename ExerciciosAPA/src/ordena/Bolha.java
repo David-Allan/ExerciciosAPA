@@ -11,18 +11,21 @@ public class Bolha extends Ordena {
 	}
 	
 	public void bolha(){
-		int i,j, n = this.v.length;
+		int i,j,n = this.v.length;
+		int trocas = 0,comparacoes = 0;
 		Item aux;
 		
 		for(i = 0; i<n-1; i++){
-			for(j=1; j<n-1; j++){
+			for(j=1; j<n-i; j++){
+				comparacoes++;
 				if(this.v[j].chave<this.v[j-1].chave){
 					aux = this.v[j];
 					this.v[j] = this.v[j-1];
 					this.v[j-1]=aux;
+					trocas++;
 				}
 			}
 		}
-		
+		System.out.println("Comparações: " + comparacoes + "\nTrocas: " + trocas);
 	}
 }
