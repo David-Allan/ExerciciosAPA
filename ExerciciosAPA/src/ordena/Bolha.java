@@ -1,3 +1,4 @@
+
 package ordena;
 import item.Item;
 
@@ -26,6 +27,6 @@ public class Bolha extends Ordena {
 				}
 			}
 		}
-		System.out.println("Comparações: " + comparacoes + "\nTrocas: " + trocas);
+		System.out.println("Comparacoes: " + comparacoes + "\nTrocas: " + trocas);
 	}
 }
