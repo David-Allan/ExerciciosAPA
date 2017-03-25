@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="src" path="ExerciciosAPA/src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/t1072646/Desktop/jcommon-1.0.23.jar"/>
-	<classpathentry kind="lib" path="C:/Users/t1072646/Desktop/jfreechart-1.0.19.jar"/>
-	<classpathentry kind="output" path="ExerciciosAPA/bin"/>
-</classpath>
